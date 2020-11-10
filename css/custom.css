@@ -1,0 +1,18 @@
+body{
+	min-width: 768px;
+}
+.btn-trans{
+	background-color: transparent;
+	border: none;
+}
+.btn-black{
+	background-color: black;
+	color: white;
+}
+.btn-add-tab{
+	background-color:black;
+	color: white;
+}
+.material-icons.md-18 {
+	font-size: 13px;
+}
