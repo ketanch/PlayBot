@@ -1,0 +1,27 @@
+{
+    "name": "PlayBot",
+    "version": "1.0",
+	"manifest_version": 2,
+    "description": "Play audio as per priority",
+	"author": "Ketan Chaturvedi",
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_icon": "icons/icon.png"
+	},
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"storage"
+	],
+	"background": {
+		"scripts": ["js/background.js"],
+		"persistent": true
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"all_frames": true,
+			"js": ["js/sites.js", "js/content.js"]
+		}
+	]
+}
