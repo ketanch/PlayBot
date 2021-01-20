@@ -1,2 +1,2 @@
 # PlayBot
-![Image](http://github.com/ketanch/PlayBot/demo.png)
+![Image](https://github.com/ketanch/PlayBot/demo.png)
